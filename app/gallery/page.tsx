@@ -23,7 +23,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron delivers on his promise, bringing Cleveland its first championship in 52 years.",
-    imageUrl: "https://www.ideastream.org/sites/default/files/styles/twitter_large_card/public/2023-06/GettyImages-542332126.jpg",
+    imageUrl: "https://i.ytimg.com/vi/wgVOgGLtPtc/maxresdefault.jpg",
   },
   {
     id: "3",

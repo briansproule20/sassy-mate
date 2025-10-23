@@ -64,7 +64,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron drops 46-11-9 to force a Game 7 against the Celtics in the ECF.",
-    imageUrl: "https://i.ytimg.com/vi/OxYXc7UcJ6E/maxresdefault.jpg",
+    imageUrl: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMcwnUGNG47U/v1/-1x-1.webp",
   },
   {
     id: "8",
@@ -73,7 +73,7 @@ const moments = [
     category: "Petty",
     description:
       "LeBron drops 51 in Game 1 Finals. JR forgets the score. Cavs lose in OT. Unbearable pain.",
-    imageUrl: "https://i.ytimg.com/vi/wRMwVaeduwE/maxresdefault.jpg",
+    imageUrl: "https://i.ytimg.com/vi/Cj_4DupKfuk/hq720.jpg",
   },
   {
     id: "6",
@@ -82,7 +82,34 @@ const moments = [
     category: "Philanthropic",
     description:
       "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
-    imageUrl: "https://i.ytimg.com/vi/IC76WFMZnfo/maxresdefault.jpg",
+    imageUrl: "https://www.the74million.org/wp-content/uploads/2023/08/Lebron-James-I-promise-school-akron.jpg",
+  },
+  {
+    id: "10",
+    title: "Lakers Championship",
+    date: "October 11, 2020",
+    category: "Heroic",
+    description:
+      "LeBron wins his 4th championship and 4th Finals MVP, leading the Lakers to victory in the NBA Bubble.",
+    imageUrl: "https://images2.minutemediacdn.com/image/upload/c_crop,w_6276,h_3530,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/ImagnImages/mmsport/all_lakers/01jnwgdck920kydga4n0.jpg",
+  },
+  {
+    id: "11",
+    title: "All-Time Scoring King",
+    date: "February 7, 2023",
+    category: "Heroic",
+    description:
+      "LeBron passes Kareem Abdul-Jabbar to become the NBA's all-time leading scorer with 38,388 points.",
+    imageUrl: "https://cdn-wp.thesportsrush.com/2021/10/faeeadb8-untitled-design-22.jpg",
+  },
+  {
+    id: "12",
+    title: "Playing With Bronny",
+    date: "October 22, 2024",
+    category: "Fatherly",
+    description:
+      "LeBron and his son Bronny make history as the first father-son duo to play together in an NBA game.",
+    imageUrl: "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-10/241023-lebron-bronny-james-mb-1134-e4d4ac.jpg",
   },
 ];
 

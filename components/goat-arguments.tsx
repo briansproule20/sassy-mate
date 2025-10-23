@@ -53,10 +53,10 @@ export function GoatArguments() {
     <section id="goat" className="py-20 px-4 bg-white dark:bg-cavs-navy">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-display text-5xl text-center mb-4 text-cavs-wine dark:text-cavs-gold">
-          WHY LEBRON IS THE GOAT
+          IRREFUTABLE EVIDENCE
         </h2>
         <p className="text-center text-slate-600 dark:text-slate-300 mb-12">
-          Let's break it down, category by category
+          Case closed. The King's resume speaks for itself.
         </p>
 
         <div className="flex flex-wrap gap-2 justify-center mb-8">
@@ -71,15 +71,15 @@ export function GoatArguments() {
           ))}
         </div>
 
-        <Card className="min-h-[280px] bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800">
-          <CardHeader>
-            <CardTitle className="text-cavs-wine dark:text-cavs-gold text-2xl">
+        <Card className="bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800">
+          <CardHeader className="pb-3">
+            <CardTitle className="text-cavs-wine dark:text-cavs-gold text-xl">
               {activeContent?.label}
             </CardTitle>
           </CardHeader>
-          <CardContent className="flex flex-col h-full">
-            <p className="text-lg mb-6 leading-relaxed text-slate-700 dark:text-slate-200">{activeContent?.content}</p>
-            <div className="flex flex-wrap gap-2 mt-auto">
+          <CardContent className="pt-0">
+            <p className="text-base mb-4 leading-relaxed text-slate-700 dark:text-slate-200">{activeContent?.content}</p>
+            <div className="flex flex-wrap gap-2">
               {activeContent?.stats.map((stat, i) => (
                 <Badge key={i} variant="secondary" className="text-sm">
                   {stat}

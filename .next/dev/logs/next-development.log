@@ -292,3 +292,5 @@ Debug info:
 - Execution of get_transpiled_packages failed
 - Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
 [00:53:55.450] Server  LOG        Reload env: .env.local
+[00:58:16.911] Server  LOG        Reload env: .env.development.local
+[00:58:33.520] Server  LOG        Reload env: .env.local

@@ -15,6 +15,7 @@ const moments = [
     category: "Heroic",
     description:
       "The most iconic defensive play in Finals history. LeBron chases down Andre Iguodala and pins his layup attempt against the backboard in Game 7.",
+    imageUrl: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=600&fit=crop",
   },
   {
     id: "2",
@@ -23,6 +24,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron delivers on his promise, bringing Cleveland its first championship in 52 years.",
+    imageUrl: "https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=800&h=600&fit=crop",
   },
   {
     id: "3",
@@ -31,6 +33,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron drops 46-11-9 to force a Game 7 against the Celtics in the ECF.",
+    imageUrl: "https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?w=800&h=600&fit=crop",
   },
   {
     id: "4",
@@ -39,6 +42,7 @@ const moments = [
     category: "Heroic",
     description:
       "22-year-old LeBron scores the Cavs' final 25 points to beat the Pistons in Game 5 ECF.",
+    imageUrl: "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=800&h=600&fit=crop",
   },
   {
     id: "5",
@@ -47,6 +51,7 @@ const moments = [
     category: "Philanthropic",
     description:
       "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
+    imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=600&fit=crop",
   },
   {
     id: "6",
@@ -55,6 +60,7 @@ const moments = [
     category: "Heroic",
     description:
       "Facing elimination with the Heat, LeBron delivers a legendary performance.",
+    imageUrl: "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&h=600&fit=crop",
   },
   {
     id: "7",
@@ -63,6 +69,7 @@ const moments = [
     category: "Petty",
     description:
       "LeBron drops 51 in Game 1 Finals. JR forgets the score. Cavs lose in OT. Unbearable pain.",
+    imageUrl: "https://images.unsplash.com/photo-1515523110800-9415d13b84a8?w=800&h=600&fit=crop",
   },
   {
     id: "8",
@@ -71,6 +78,7 @@ const moments = [
     category: "Fatherly",
     description:
       'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
+    imageUrl: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&h=600&fit=crop",
   },
 ];
 
@@ -104,28 +112,34 @@ export default function GalleryPage() {
             </div>
           </div>
 
-          <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {moments.map((moment) => (
               <div
                 key={moment.id}
-                className="break-inside-avoid bg-white rounded-lg border shadow-sm hover:shadow-md transition-shadow overflow-hidden"
+                className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:border-cavs-wine/20 transition-all duration-300 overflow-hidden flex flex-col h-full"
               >
-                <div className="aspect-video bg-gradient-to-br from-cavs-wine to-cavs-navy flex items-center justify-center">
-                  <div className="text-cavs-gold text-4xl font-display">
-                    {moment.title.slice(0, 3)}
-                  </div>
+                <div className="relative aspect-video overflow-hidden">
+                  <img
+                    src={moment.imageUrl}
+                    alt={moment.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                  <Badge 
+                    variant="secondary" 
+                    className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm"
+                  >
+                    {moment.category}
+                  </Badge>
                 </div>
-                <div className="p-4">
-                  <div className="flex items-start justify-between gap-2 mb-2">
-                    <h3 className="font-semibold text-lg text-cavs-wine">
-                      {moment.title}
-                    </h3>
-                    <Badge variant="secondary" className="shrink-0">
-                      {moment.category}
-                    </Badge>
-                  </div>
-                  <p className="text-sm text-slate-500 mb-2">{moment.date}</p>
-                  <p className="text-sm text-slate-700">{moment.description}</p>
+                <div className="p-5 flex flex-col flex-grow">
+                  <h3 className="font-semibold text-xl text-cavs-wine mb-2 group-hover:text-cavs-navy transition-colors">
+                    {moment.title}
+                  </h3>
+                  <p className="text-sm text-slate-500 mb-3">{moment.date}</p>
+                  <p className="text-sm text-slate-700 leading-relaxed flex-grow">
+                    {moment.description}
+                  </p>
                 </div>
               </div>
             ))}

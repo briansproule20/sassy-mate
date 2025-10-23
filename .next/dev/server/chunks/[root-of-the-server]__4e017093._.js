@@ -50,36 +50,35 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_module
 ;
 const revalidate = 0; // Disable caching for real-time data
 async function GET() {
-    // Only use Redis in production
-    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        try {
-            const { kv } = await __turbopack_context__.A("[project]/sassy-mate/node_modules/@vercel/kv/dist/index.js [app-route] (ecmascript, async loader)");
-            // Fetch all petition IDs from Redis list
-            const petitionIds = await kv.lrange("petitions", 0, -1);
-            // Fetch each petition's data
-            const petitions = await Promise.all(petitionIds.map(async (id)=>{
-                const petition = await kv.hgetall(`petition:${id}`);
-                return petition ? {
-                    id,
-                    ...petition
-                } : null;
-            }));
-            // Filter out null values and sort by timestamp (newest first)
-            const validPetitions = petitions.filter((p)=>p !== null).sort((a, b)=>b.timestamp - a.timestamp);
-            return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-                success: true,
-                data: validPetitions
-            });
-        } catch (error) {
-            console.error("Failed to fetch petitions from Redis:", error);
-        }
+    try {
+        const { Redis } = await __turbopack_context__.A("[project]/sassy-mate/node_modules/@upstash/redis/nodejs.mjs [app-route] (ecmascript, async loader)");
+        // Initialize Redis using environment variables
+        const redis = Redis.fromEnv();
+        // Fetch all petition IDs from Redis list
+        const petitionIds = await redis.lrange("petitions", 0, -1);
+        // Fetch each petition's data
+        const petitions = await Promise.all(petitionIds.map(async (id)=>{
+            const petition = await redis.hgetall(`petition:${id}`);
+            return petition ? {
+                id,
+                ...petition
+            } : null;
+        }));
+        // Filter out null values and sort by timestamp (newest first)
+        const validPetitions = petitions.filter((p)=>p !== null).sort((a, b)=>b.timestamp - a.timestamp);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: true,
+            data: validPetitions
+        });
+    } catch (error) {
+        console.error("Failed to fetch petitions from Redis:", error);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: "Failed to fetch petitions"
+        }, {
+            status: 500
+        });
     }
-    // Return empty array for local development
-    return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-        success: true,
-        data: [],
-        message: "Redis not configured - using client-side storage"
-    });
 }
 async function POST(request) {
     const body = await request.json();
@@ -92,54 +91,46 @@ async function POST(request) {
             status: 400
         });
     }
-    // Only use Redis in production
-    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        try {
-            const { kv } = await __turbopack_context__.A("[project]/sassy-mate/node_modules/@vercel/kv/dist/index.js [app-route] (ecmascript, async loader)");
-            const petitionId = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
-            const timestamp = Date.now();
-            // Store petition data
-            await kv.hset(`petition:${petitionId}`, {
-                name,
-                reason,
-                goatScore,
-                goatRank: goatRank || "Witness",
-                timestamp
-            });
-            // Add petition ID to list
-            await kv.lpush("petitions", petitionId);
-            // Update leaderboard (sorted set by points)
-            await kv.zincrby("leaderboard", 10, name);
-            // Update user data
-            const existingUser = await kv.hgetall(`user:${name}`);
-            await kv.hset(`user:${name}`, {
-                lastSeen: new Date().toISOString(),
-                petitionCount: (existingUser?.petitionCount || 0) + 1
-            });
-            return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-                success: true,
-                data: {
-                    id: petitionId
-                }
-            });
-        } catch (error) {
-            console.error("Failed to create petition in Redis:", error);
-            return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-                success: false,
-                error: "Failed to create petition"
-            }, {
-                status: 500
-            });
-        }
+    try {
+        const { Redis } = await __turbopack_context__.A("[project]/sassy-mate/node_modules/@upstash/redis/nodejs.mjs [app-route] (ecmascript, async loader)");
+        // Initialize Redis using environment variables
+        const redis = Redis.fromEnv();
+        const petitionId = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+        const timestamp = Date.now();
+        // Store petition data
+        await redis.hset(`petition:${petitionId}`, {
+            name,
+            reason,
+            goatScore,
+            goatRank: goatRank || "Witness",
+            timestamp
+        });
+        // Add petition ID to list
+        await redis.lpush("petitions", petitionId);
+        // Update leaderboard (sorted set by points) - use actual goatScore
+        await redis.zincrby("leaderboard", goatScore, name);
+        // Update user data
+        const existingUser = await redis.hgetall(`user:${name}`);
+        await redis.hset(`user:${name}`, {
+            lastSeen: new Date().toISOString(),
+            petitionCount: (existingUser?.petitionCount || 0) + 1,
+            totalPoints: (existingUser?.totalPoints || 0) + goatScore
+        });
+        return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: true,
+            data: {
+                id: petitionId
+            }
+        });
+    } catch (error) {
+        console.error("Failed to create petition in Redis:", error);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: "Failed to create petition"
+        }, {
+            status: 500
+        });
     }
-    // For local development, return success (client will handle localStorage)
-    return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-        success: true,
-        data: {
-            id: Date.now().toString()
-        },
-        message: "Redis not configured - using client-side storage"
-    });
 }
 }),
 ];

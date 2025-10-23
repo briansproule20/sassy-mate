@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Menu, Home, Image as ImageIcon, TrendingUp, BarChart3, Crown } from "lucide-react";
+import { Menu, Home, Image as ImageIcon, TrendingUp, BarChart3, Crown, Sparkles } from "lucide-react";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, SheetClose } from "@/components/ui/sheet";
 import { useState } from "react";
 import { Separator } from "@/components/ui/separator";
@@ -10,6 +10,7 @@ import NextImage from "next/image";
 const navLinks = [
   { href: "/", label: "Home", icon: Home, description: "Main dashboard" },
   { href: "/stats", label: "Stats", icon: BarChart3, description: "LeBron's career stats" },
+  { href: "/lefacts", label: "LeFacts", icon: Sparkles, description: "Mind-blowing LeBron facts" },
   { href: "/witnesses", label: "Witnesses", icon: Crown, description: "Hall of fame believers" },
   { href: "/gallery", label: "Gallery", icon: ImageIcon, description: "Photo gallery" },
   { href: "/compare", label: "Compare", icon: TrendingUp, description: "Player comparison" },

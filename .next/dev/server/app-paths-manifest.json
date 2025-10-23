@@ -2,8 +2,11 @@
   "/api/players/lebron/career/route": "app/api/players/lebron/career/route.js",
   "/api/teams/lakers/upcoming/route": "app/api/teams/lakers/upcoming/route.js",
   "/api/witnesses/leaderboard/route": "app/api/witnesses/leaderboard/route.js",
+  "/api/witnesses/petitions/route": "app/api/witnesses/petitions/route.js",
   "/compare/page": "app/compare/page.js",
   "/gallery/page": "app/gallery/page.js",
+  "/lefacts/page": "app/lefacts/page.js",
   "/page": "app/page.js",
-  "/stats/page": "app/stats/page.js"
+  "/stats/page": "app/stats/page.js",
+  "/witnesses/page": "app/witnesses/page.js"
 }

@@ -3,8 +3,10 @@
 import { useEffect, useState } from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { getInitials, formatDate } from "@/lib/utils";
 import type { Leader } from "@/lib/types";
+import Link from "next/link";
 
 export function GlazerLeaderboard() {
   const [leaders, setLeaders] = useState<Leader[]>([]);
@@ -95,6 +97,17 @@ export function GlazerLeaderboard() {
             )}
           </CardContent>
         </Card>
+
+        <div className="flex justify-center mt-8">
+          <Link href="/witnesses">
+            <Button 
+              size="lg" 
+              className="text-lg px-8 bg-cavs-wine dark:bg-stone-700 hover:bg-cavs-wine/90 dark:hover:bg-stone-600 text-white"
+            >
+              Enter the Hall of Glaze
+            </Button>
+          </Link>
+        </div>
 
         <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-6">
           Earn points by signing petitions, sharing, and engaging with content

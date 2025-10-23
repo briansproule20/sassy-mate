@@ -19,46 +19,16 @@ export function PetitionForm() {
 
     if (!name || !reason) return;
 
-    const petitionData = {
-      id: Date.now().toString(),
-      name,
-      reason,
-      goatScore,
-      goatRank: getLabel(),
-      timestamp: Date.now(),
-    };
-
-    // Store in localStorage (for local dev and backup)
-    const petitions = JSON.parse(localStorage.getItem("petitions") || "[]");
-    petitions.push(petitionData);
-    localStorage.setItem("petitions", JSON.stringify(petitions));
-
-    // Add to leaderboard in localStorage
-    const leaders = JSON.parse(localStorage.getItem("leaders") || "[]");
-    const existing = leaders.find((l: any) => l.name === name);
-    if (existing) {
-      existing.points += 10;
-      existing.lastSeen = new Date().toISOString();
-    } else {
-      leaders.push({
-        id: Date.now().toString(),
-        name,
-        points: 10,
-        lastSeen: new Date().toISOString(),
-      });
-    }
-    localStorage.setItem("leaders", JSON.stringify(leaders));
-
-    // Submit to Redis API (production only)
+    // Submit to Redis API
     try {
       await fetch("/api/witnesses/petitions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          name: petitionData.name,
-          reason: petitionData.reason,
-          goatScore: petitionData.goatScore,
-          goatRank: petitionData.goatRank,
+          name,
+          reason,
+          goatScore,
+          goatRank: getLabel(),
         }),
       });
 
@@ -70,7 +40,8 @@ export function PetitionForm() {
       });
     } catch (error) {
       console.error("Failed to submit to API:", error);
-      // Continue anyway - localStorage is the backup
+      alert("Failed to submit petition. Please try again.");
+      return;
     }
 
     // Confetti if high score

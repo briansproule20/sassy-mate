@@ -10,7 +10,7 @@ export async function GET() {
     const redis = Redis.fromEnv();
     
     // Fetch all leaders from Redis sorted set
-    const leaders = await redis.zrevrange("leaderboard", 0, -1, "WITHSCORES");
+    const leaders = await redis.zrange("leaderboard", 0, -1, { rev: true, withScores: true });
 
     // Transform the data
     const leaderData = [];

@@ -1,0 +1,10 @@
+# Language detection for GitHub
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+
+# Exclude build files from language detection
+.next/** linguist-vendored
+node_modules/** linguist-vendored
+*.min.js linguist-vendored

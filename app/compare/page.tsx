@@ -75,134 +75,134 @@ export default function ComparePage() {
                   <table className="w-full">
                     <thead>
                       <tr className="border-b">
-                        <th className="py-3 px-4 text-left">Category</th>
-                        <th className="py-3 px-4 text-center bg-cavs-wine/5">
-                          LeBron James
+                        <th className="py-3 px-2 sm:px-4 text-left text-sm">Category</th>
+                        <th className="py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 text-sm">
+                          LeBron
                         </th>
-                        <th className="py-3 px-4 text-center">Michael Jordan</th>
+                        <th className="py-3 px-2 sm:px-4 text-center text-sm">Jordan</th>
                       </tr>
                     </thead>
                     <tbody className="text-sm">
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Championships</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Championships</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold">
                           4
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">6</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">6</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Finals MVPs</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Finals MVPs</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold">
                           4
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">6</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">6</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Regular Season MVPs</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Regular Season MVPs</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold">
                           4
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">5</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">5</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Total Career Points</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
-                          {lebronPoints.toLocaleString()}
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Total Career Points</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                          {lebronStats?.total_pts ? Number(lebronStats.total_pts).toLocaleString() : "40,474"}
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">
                           32,292
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Total Assists</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
-                          {lebronAssists.toLocaleString()}
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Total Assists</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                          {lebronStats?.total_ast ? Number(lebronStats.total_ast).toLocaleString() : "11,009"}
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">
                           5,633
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Total Rebounds</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
-                          {lebronRebounds.toLocaleString()}
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Total Rebounds</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                          {lebronStats?.total_reb ? Number(lebronStats.total_reb).toLocaleString() : "11,185"}
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">
                           6,672
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">PPG Career Average</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">PPG Career Average</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           {lebronStats?.pts || "27.2"}
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">
                           30.1
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">RPG Career Average</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">RPG Career Average</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           {lebronStats?.reb || "7.5"}
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">
                           6.2
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">APG Career Average</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">APG Career Average</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           {lebronStats?.ast || "7.4"}
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">
                           5.3
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">All-NBA Selections</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">All-NBA Selections</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           20
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">11</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">11</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">All-Star Selections</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">All-Star Selections</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           20
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">14</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">14</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">All-Defense Selections</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">All-Defense Selections</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold">
                           6
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold text-green-700">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold text-green-700">
                           9
                         </td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Seasons Played</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Seasons Played</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           22
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">15</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">15</td>
                       </tr>
                       <tr className="border-b">
-                        <td className="py-3 px-4 font-medium">Finals Appearances</td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">Finals Appearances</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           10
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">6</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">6</td>
                       </tr>
                       <tr>
-                        <td className="py-3 px-4 font-medium">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm">
                           Beat a 73-win team down 3-1
                         </td>
-                        <td className="py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine">
                           Yes 👑
                         </td>
-                        <td className="py-3 px-4 text-center font-semibold">No</td>
+                        <td className="py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold">No</td>
                       </tr>
                     </tbody>
                   </table>

@@ -949,7 +949,7 @@ function ComparePage() {
                                                         className: "border-b",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                                                className: "py-3 px-4 text-left",
+                                                                className: "py-3 px-2 sm:px-4 text-left text-sm",
                                                                 children: "Category"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -957,16 +957,16 @@ function ComparePage() {
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                                                className: "py-3 px-4 text-center bg-cavs-wine/5",
-                                                                children: "LeBron James"
+                                                                className: "py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 text-sm",
+                                                                children: "LeBron"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/sassy-mate/app/compare/page.tsx",
                                                                 lineNumber: 79,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                                                className: "py-3 px-4 text-center",
-                                                                children: "Michael Jordan"
+                                                                className: "py-3 px-2 sm:px-4 text-center text-sm",
+                                                                children: "Jordan"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/sassy-mate/app/compare/page.tsx",
                                                                 lineNumber: 82,
@@ -990,7 +990,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Championships"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -998,7 +998,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold",
                                                                     children: "4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1006,7 +1006,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "6"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1023,7 +1023,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Finals MVPs"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1031,7 +1031,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold",
                                                                     children: "4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1039,7 +1039,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "6"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1056,7 +1056,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Regular Season MVPs"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1064,7 +1064,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold",
                                                                     children: "4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1072,7 +1072,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1089,7 +1089,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Total Career Points"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1097,15 +1097,15 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
-                                                                    children: lebronPoints.toLocaleString()
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    children: lebronStats?.total_pts ? Number(lebronStats.total_pts).toLocaleString() : "40,474"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
                                                                     lineNumber: 109,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "32,292"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1122,7 +1122,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Total Assists"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1130,15 +1130,15 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
-                                                                    children: lebronAssists.toLocaleString()
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    children: lebronStats?.total_ast ? Number(lebronStats.total_ast).toLocaleString() : "11,009"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
                                                                     lineNumber: 118,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "5,633"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1155,7 +1155,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Total Rebounds"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1163,15 +1163,15 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
-                                                                    children: lebronRebounds.toLocaleString()
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    children: lebronStats?.total_reb ? Number(lebronStats.total_reb).toLocaleString() : "11,185"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
                                                                     lineNumber: 127,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "6,672"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1188,7 +1188,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "PPG Career Average"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1196,7 +1196,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: lebronStats?.pts || "27.2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1204,7 +1204,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "30.1"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1221,7 +1221,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "RPG Career Average"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1229,7 +1229,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: lebronStats?.reb || "7.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1237,7 +1237,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "6.2"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1254,7 +1254,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "APG Career Average"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1262,7 +1262,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: lebronStats?.ast || "7.4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1270,7 +1270,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "5.3"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1287,7 +1287,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "All-NBA Selections"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1295,7 +1295,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: "20"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1303,7 +1303,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "11"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1320,7 +1320,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "All-Star Selections"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1328,7 +1328,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: "20"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1336,7 +1336,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "14"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1353,7 +1353,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "All-Defense Selections"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1361,7 +1361,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold",
                                                                     children: "6"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1369,7 +1369,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold text-green-700",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold text-green-700",
                                                                     children: "9"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1386,7 +1386,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Seasons Played"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1394,7 +1394,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: "22"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1402,7 +1402,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "15"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1419,7 +1419,7 @@ function ComparePage() {
                                                             className: "border-b",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Finals Appearances"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1427,7 +1427,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: "10"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1435,7 +1435,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "6"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1451,7 +1451,7 @@ function ComparePage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 font-medium",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 font-medium text-xs sm:text-sm",
                                                                     children: "Beat a 73-win team down 3-1"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1459,7 +1459,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center bg-cavs-wine/5 font-semibold text-cavs-wine",
                                                                     children: "Yes 👑"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",
@@ -1467,7 +1467,7 @@ function ComparePage() {
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
-                                                                    className: "py-3 px-4 text-center font-semibold",
+                                                                    className: "py-2 sm:py-3 px-2 sm:px-4 text-center font-semibold",
                                                                     children: "No"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/sassy-mate/app/compare/page.tsx",

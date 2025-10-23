@@ -1,6 +1,8 @@
 {
+  "/api/players/lebron/career/route": "app/api/players/lebron/career/route.js",
   "/api/teams/lakers/upcoming/route": "app/api/teams/lakers/upcoming/route.js",
   "/api/witnesses/leaderboard/route": "app/api/witnesses/leaderboard/route.js",
+  "/compare/page": "app/compare/page.js",
   "/gallery/page": "app/gallery/page.js",
   "/page": "app/page.js"
 }

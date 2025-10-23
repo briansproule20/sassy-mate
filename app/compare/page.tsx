@@ -5,9 +5,7 @@ import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { ArrowLeft, Activity } from "lucide-react";
+import { Activity } from "lucide-react";
 
 interface CareerStats {
   total_pts: string;
@@ -50,21 +48,14 @@ export default function ComparePage() {
       <SiteNav />
       <main className="pt-24 pb-20 px-4 min-h-screen">
         <div className="max-w-6xl mx-auto">
-          <Link href="/">
-            <Button variant="ghost" className="mb-8">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Home
-            </Button>
-          </Link>
-
           <div className="text-center mb-12">
-            <h1 className="font-display text-6xl text-cavs-wine mb-4">
+            <h1 className="font-display text-7xl md:text-8xl text-cavs-wine mb-4">
               THE GOAT DEBATE
             </h1>
-            <p className="text-xl text-slate-600">
+            <p className="text-xl text-slate-600 mb-8">
               LeBron James vs. Michael Jordan
             </p>
-            <Badge variant="destructive" className="mt-4">
+            <Badge variant="destructive" className="text-sm">
               Cleveland bias detected
             </Badge>
           </div>

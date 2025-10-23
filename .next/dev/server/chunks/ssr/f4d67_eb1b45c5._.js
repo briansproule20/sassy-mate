@@ -16656,51 +16656,6 @@ const cva = (base, config)=>(props)=>{
         return cx(base, getVariantClassNames, getCompoundVariantClassNames, props === null || props === void 0 ? void 0 : props.class, props === null || props === void 0 ? void 0 : props.className);
     };
 }),
-"[project]/sassy-mate/node_modules/lucide-react/dist/esm/icons/arrow-left.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-/**
- * @license lucide-react v0.546.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */ __turbopack_context__.s([
-    "__iconNode",
-    ()=>__iconNode,
-    "default",
-    ()=>ArrowLeft
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/sassy-mate/node_modules/lucide-react/dist/esm/createLucideIcon.js [app-ssr] (ecmascript)");
-;
-const __iconNode = [
-    [
-        "path",
-        {
-            d: "m12 19-7-7 7-7",
-            key: "1l729n"
-        }
-    ],
-    [
-        "path",
-        {
-            d: "M19 12H5",
-            key: "x3x0zl"
-        }
-    ]
-];
-const ArrowLeft = (0, __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$createLucideIcon$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])("arrow-left", __iconNode);
-;
- //# sourceMappingURL=arrow-left.js.map
-}),
-"[project]/sassy-mate/node_modules/lucide-react/dist/esm/icons/arrow-left.js [app-ssr] (ecmascript) <export default as ArrowLeft>", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "ArrowLeft",
-    ()=>__TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/sassy-mate/node_modules/lucide-react/dist/esm/icons/arrow-left.js [app-ssr] (ecmascript)");
-}),
 "[project]/sassy-mate/node_modules/lucide-react/dist/esm/icons/activity.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -16741,4 +16696,4 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_module
 }),
 ];
 
-//# sourceMappingURL=f4d67_53b22095._.js.map
+//# sourceMappingURL=f4d67_eb1b45c5._.js.map

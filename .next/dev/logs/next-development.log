@@ -199,3 +199,95 @@
 [00:28:01.346] Server  LOG      ✓ Compiled in 14ms
 [00:29:32.342] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
 [00:29:32.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:37.086] Server  ERROR    ⨯ TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
+[00:32:37.090] Server  ERROR   TurbopackInternalError: Failed to write app endpoint /compare/page
+
+Caused by:
+- Expected file content for file
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <AppEndpoint as Endpoint>::output failed
+- Failed to write app endpoint /compare/page
+- Execution of AppEndpoint::output failed
+- Execution of get_app_page_entry failed
+- Execution of file_content_rope failed
+- Expected file content for file
+[00:32:37.091] Server  ERROR    ⨯ TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
+[00:32:37.095] Server  ERROR   TurbopackInternalError: Failed to write page endpoint /_app
+
+Caused by:
+- content is not available as task execution failed
+- content is not available as task execution failed
+- Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
+
+Debug info:
+- Execution of get_written_endpoint_with_issues_operation failed
+- Execution of endpoint_write_to_disk failed
+- Execution of <PageEndpoint as Endpoint>::output failed
+- Failed to write page endpoint /_app
+- Execution of PageEndpoint::output failed
+- Execution of PageEndpoint::client_chunk_group failed
+- Execution of PageEndpoint::client_evaluatable_assets failed
+- content is not available as task execution failed
+- Execution of PageEndpoint::client_module failed
+- content is not available as task execution failed
+- Execution of *create_page_loader_entry_module failed
+- Execution of PagesProject::client_module_context failed
+- Execution of *ModuleAssetContext::new failed
+- Execution of get_client_module_options_context failed
+- Execution of *get_jsx_transform_options failed
+- Execution of get_client_resolve_options_context failed
+- Execution of get_transpiled_packages failed
+- Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json

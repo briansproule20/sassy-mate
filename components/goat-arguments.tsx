@@ -30,6 +30,18 @@ const tabs = [
     content: "Brought Cleveland its first championship in 52 years. Beat a 73-win team. Changed teams' fortunes instantly. Cultural icon.",
     stats: ["3-1 comeback", "4 rings", "4 MVPs"],
   },
+  {
+    id: "clutch",
+    label: "Clutch Gene",
+    content: "Game 7 vs Warriors. Block on Iguodala. Game 6 vs Celtics. The man shows up when it matters most. 'He's not clutch' - biggest lie ever told.",
+    stats: ["Game 7 dominance", "Playoff record 40+ games", "Finals performances"],
+  },
+  {
+    id: "leadership",
+    label: "Leadership",
+    content: "Built the I Promise School. Spoke up for social justice. Changed the game on and off the court. More than an athlete - a generational leader.",
+    stats: ["Community impact", "Player empowerment", "Cultural influence"],
+  },
 ];
 
 export function GoatArguments() {
@@ -59,17 +71,17 @@ export function GoatArguments() {
           ))}
         </div>
 
-        <Card>
+        <Card className="min-h-[280px]">
           <CardHeader>
-            <CardTitle className="text-cavs-wine">
+            <CardTitle className="text-cavs-wine text-2xl">
               {activeContent?.label}
             </CardTitle>
           </CardHeader>
-          <CardContent>
-            <p className="text-lg mb-6">{activeContent?.content}</p>
-            <div className="flex flex-wrap gap-2">
+          <CardContent className="flex flex-col h-full">
+            <p className="text-lg mb-6 leading-relaxed">{activeContent?.content}</p>
+            <div className="flex flex-wrap gap-2 mt-auto">
               {activeContent?.stats.map((stat, i) => (
-                <Badge key={i} variant="secondary">
+                <Badge key={i} variant="secondary" className="text-sm">
                   {stat}
                 </Badge>
               ))}

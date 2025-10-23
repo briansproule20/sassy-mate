@@ -48,43 +48,44 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_module
 ;
 const revalidate = 0; // Disable caching for real-time data
 async function GET() {
-    // Only use Redis in production
-    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-        try {
-            const { kv } = await __turbopack_context__.A("[project]/sassy-mate/node_modules/@vercel/kv/dist/index.js [app-route] (ecmascript, async loader)");
-            // Fetch all leaders from Redis sorted set
-            const leaders = await kv.zrevrange("leaderboard", 0, -1, {
-                withScores: true
+    try {
+        const { Redis } = await __turbopack_context__.A("[project]/sassy-mate/node_modules/@upstash/redis/nodejs.mjs [app-route] (ecmascript, async loader)");
+        // Initialize Redis using environment variables
+        const redis = Redis.fromEnv();
+        // Fetch all leaders from Redis sorted set
+        const leaders = await redis.zrange("leaderboard", 0, -1, {
+            rev: true,
+            withScores: true
+        });
+        // Transform the data
+        const leaderData = [];
+        for(let i = 0; i < leaders.length; i += 2){
+            const name = leaders[i];
+            const points = parseInt(leaders[i + 1]);
+            // Get additional user data
+            const userData = await redis.hgetall(`user:${name}`);
+            leaderData.push({
+                id: name,
+                name,
+                points,
+                lastSeen: userData?.lastSeen || new Date().toISOString(),
+                petitionCount: userData?.petitionCount || 0,
+                rank: Math.floor(i / 2) + 1
             });
-            // Transform the data
-            const leaderData = [];
-            for(let i = 0; i < leaders.length; i += 2){
-                const name = leaders[i];
-                const points = leaders[i + 1];
-                // Get additional user data
-                const userData = await kv.hgetall(`user:${name}`);
-                leaderData.push({
-                    id: name,
-                    name,
-                    points,
-                    lastSeen: userData?.lastSeen || new Date().toISOString(),
-                    petitionCount: userData?.petitionCount || 0
-                });
-            }
-            return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-                success: true,
-                data: leaderData
-            });
-        } catch (error) {
-            console.error("Failed to fetch leaderboard from Redis:", error);
         }
+        return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: true,
+            data: leaderData
+        });
+    } catch (error) {
+        console.error("Failed to fetch leaderboard from Redis:", error);
+        return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            success: false,
+            error: "Failed to fetch leaderboard"
+        }, {
+            status: 500
+        });
     }
-    // Return empty array for local development
-    return __TURBOPACK__imported__module__$5b$project$5d2f$sassy$2d$mate$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
-        success: true,
-        data: [],
-        message: "Redis not configured - using client-side storage"
-    });
 }
 }),
 ];

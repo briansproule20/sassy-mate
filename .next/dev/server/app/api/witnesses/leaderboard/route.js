@@ -1,5 +1,5 @@
 var R=require("../../../../chunks/[turbopack]_runtime.js")("server/app/api/witnesses/leaderboard/route.js")
-R.c("server/chunks/f4d67_@vercel_kv_dist_index_d6eb8124.js")
+R.c("server/chunks/f4d67_@upstash_redis_nodejs_mjs_f5a73fee._.js")
 R.c("server/chunks/_77404c4f._.js")
 R.c("server/chunks/[root-of-the-server]__7f4b5417._.js")
 R.c("server/chunks/e3253__next-internal_server_app_api_witnesses_leaderboard_route_actions_9a080754.js")

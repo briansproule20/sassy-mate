@@ -32,7 +32,7 @@ const moments = [
     category: "Petty",
     description:
       'LeBron announces "I\'m taking my talents to South Beach" on live TV. Cleveland burns jerseys. The villain era begins.',
-    imageUrl: "https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4MTg0MjIzMzI5OTU0OTY1/lebron-james-the-decision.jpg",
+    imageUrl: "https://i.ytimg.com/vi/Afpgnb_9bA4/hq720.jpg",
   },
   {
     id: "4",

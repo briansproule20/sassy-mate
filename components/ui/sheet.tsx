@@ -108,7 +108,7 @@ export function SheetClose({
       ...props,
       onClick: (e: React.MouseEvent<HTMLElement>) => {
         setOpen(false);
-        children.props.onClick?.(e);
+        (children.props as any).onClick?.(e);
       },
     } as any);
   }

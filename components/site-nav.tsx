@@ -6,6 +6,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger, SheetClose 
 import { useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import NextImage from "next/image";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const navLinks = [
   { href: "/", label: "Home", icon: Home, description: "Main dashboard" },
@@ -20,7 +21,7 @@ export function SiteNav() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-slate-200 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white dark:bg-cavs-navy border-b border-slate-200 dark:border-slate-800 shadow-sm">
       <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
@@ -31,20 +32,22 @@ export function SiteNav() {
             height={40}
             className="transition-opacity group-hover:opacity-80"
           />
-          <span className="font-display text-xl text-cavs-wine">
+          <span className="font-display text-xl text-cavs-wine dark:text-cavs-gold">
             WITNESS HUB
           </span>
         </Link>
 
-        {/* Hamburger Menu */}
-        <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger className="inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-slate-100 h-10 w-10">
-            <Menu className="w-6 h-6 text-cavs-wine" />
-            <span className="sr-only">Open menu</span>
-          </SheetTrigger>
-          <SheetContent side="right">
+        {/* Theme Toggle and Menu */}
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger className="inline-flex items-center justify-center rounded-lg text-sm font-medium transition-colors hover:bg-slate-100 dark:hover:bg-slate-800 h-10 w-10">
+              <Menu className="w-6 h-6 text-cavs-wine dark:text-cavs-gold" />
+              <span className="sr-only">Open menu</span>
+            </SheetTrigger>
+          <SheetContent side="right" className="bg-white dark:bg-slate-900">
             <SheetHeader className="text-left pb-4">
-              <SheetTitle className="flex items-center gap-2 text-cavs-wine font-display text-2xl">
+              <SheetTitle className="flex items-center gap-2 text-cavs-wine dark:text-cavs-gold font-display text-2xl">
                 <NextImage
                   src="/icons/witnesshub favicon.png"
                   alt="Witness Hub"
@@ -64,12 +67,12 @@ export function SiteNav() {
                   <SheetClose asChild key={link.href}>
                     <Link
                       href={link.href}
-                      className="flex items-start gap-3 rounded-lg px-3 py-3 text-slate-700 hover:bg-slate-100 hover:text-cavs-wine transition-all group"
+                      className="flex items-start gap-3 rounded-lg px-3 py-3 text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-cavs-wine dark:hover:text-cavs-gold transition-all group"
                     >
-                      <Icon className="w-5 h-5 mt-0.5 text-slate-500 group-hover:text-cavs-wine transition-colors" />
+                      <Icon className="w-5 h-5 mt-0.5 text-slate-500 dark:text-slate-400 group-hover:text-cavs-wine dark:group-hover:text-cavs-gold transition-colors" />
                       <div className="flex flex-col">
                         <span className="font-semibold text-base">{link.label}</span>
-                        <span className="text-xs text-slate-500">{link.description}</span>
+                        <span className="text-xs text-slate-500 dark:text-slate-400">{link.description}</span>
                       </div>
                     </Link>
                   </SheetClose>
@@ -85,6 +88,7 @@ export function SiteNav() {
             </div>
           </SheetContent>
         </Sheet>
+        </div>
       </nav>
     </header>
   );

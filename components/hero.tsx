@@ -6,7 +6,7 @@ import { Crown } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_top_left,theme(colors.cavs.wine),#2b0f19_40%,#000)] grain">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[radial-gradient(ellipse_at_top_left,theme(colors.cavs.wine),#2b0f19_40%,#000)] dark:bg-[radial-gradient(ellipse_at_top_left,theme(colors.cavs.navy),#0A2952_40%,#000)] grain">
       <motion.div
         className="absolute top-20 right-20 text-cavs-gold opacity-20"
         animate={{
@@ -23,7 +23,7 @@ export function Hero() {
       </motion.div>
 
       <motion.div
-        className="absolute top-40 left-20 text-cavs-wine opacity-20"
+        className="absolute top-40 left-20 text-cavs-wine dark:text-cavs-gold opacity-20"
         animate={{
           y: [0, 15, 0],
           rotate: [0, -10, 0],
@@ -49,7 +49,7 @@ export function Hero() {
         </motion.h1>
 
         <motion.p
-          className="text-xl md:text-2xl text-cavs-navy mb-12 max-w-2xl mx-auto"
+          className="text-xl md:text-2xl text-cavs-navy dark:text-white mb-12 max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}

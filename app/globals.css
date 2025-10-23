@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-display: var(--font-bebas), sans-serif;
   --font-sans: var(--font-inter), sans-serif;
@@ -8,6 +10,7 @@
   --color-cavs-gold: #FFB81C;
   --color-cavs-navy: #041E42;
 
+  /* Light mode */
   --color-background: oklch(100% 0 0);
   --color-foreground: oklch(9.8% 0.022 285.885);
   --color-card: oklch(100% 0 0);
@@ -34,6 +37,29 @@
   --radius-sm: calc(0.5rem - 4px);
 }
 
+@theme dark {
+  /* Dark mode - Cavs navy background with wine, gold, and stone accents */
+  --color-background: #041E42;
+  --color-foreground: oklch(98% 0 0);
+  --color-card: #0A2952;
+  --color-card-foreground: oklch(98% 0 0);
+  --color-popover: #0A2952;
+  --color-popover-foreground: oklch(98% 0 0);
+  --color-primary: #FFB81C;
+  --color-primary-foreground: #041E42;
+  --color-secondary: #1a3a5f;
+  --color-secondary-foreground: oklch(98% 0 0);
+  --color-muted: #1a3a5f;
+  --color-muted-foreground: oklch(75% 0.01 256.376);
+  --color-accent: #6F263D;
+  --color-accent-foreground: oklch(98% 0 0);
+  --color-destructive: oklch(60.2% 0.178 29.234);
+  --color-destructive-foreground: oklch(98% 0 0);
+  --color-border: #1a3a5f;
+  --color-input: #1a3a5f;
+  --color-ring: #FFB81C;
+}
+
 @layer base {
   * {
     border-color: theme(colors.border);
@@ -42,6 +68,14 @@
     background-color: theme(colors.background);
     color: theme(colors.foreground);
     font-family: theme(fontFamily.sans);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Smooth transitions for dark mode */
+  * {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
   }
 }
 

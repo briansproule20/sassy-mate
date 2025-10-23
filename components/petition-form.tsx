@@ -101,19 +101,19 @@ export function PetitionForm() {
   };
 
   return (
-    <section id="petition" className="py-20 px-4 bg-slate-50">
+    <section id="petition" className="py-20 px-4 bg-slate-50 dark:bg-slate-950">
       <div className="max-w-3xl mx-auto">
-        <h2 className="font-display text-4xl sm:text-5xl text-center mb-4 text-cavs-wine">
+        <h2 className="font-display text-4xl sm:text-5xl text-center mb-4 text-cavs-wine dark:text-cavs-gold">
           SIGN THE PETITION
         </h2>
-        <p className="text-center text-slate-600 mb-8 sm:mb-12">
+        <p className="text-center text-slate-600 dark:text-slate-300 mb-8 sm:mb-12">
           Add your voice to the Witness Protection Program
         </p>
 
-        <Card>
+        <Card className="bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800">
           <CardHeader>
-            <CardTitle className="text-xl sm:text-2xl">Declare Your Allegiance</CardTitle>
-            <CardDescription>
+            <CardTitle className="text-xl sm:text-2xl text-slate-900 dark:text-white">Declare Your Allegiance</CardTitle>
+            <CardDescription className="text-slate-600 dark:text-slate-400">
               Share why LeBron is the GOAT and rate his greatness
             </CardDescription>
           </CardHeader>
@@ -122,7 +122,7 @@ export function PetitionForm() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 text-slate-700 dark:text-slate-200"
                 >
                   Your Name
                 </label>
@@ -133,13 +133,14 @@ export function PetitionForm() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Enter your name"
                   required
+                  className="bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white"
                 />
               </div>
 
               <div>
                 <label
                   htmlFor="reason"
-                  className="block text-sm font-medium mb-2"
+                  className="block text-sm font-medium mb-2 text-slate-700 dark:text-slate-200"
                 >
                   Why LeBron is the GOAT
                 </label>
@@ -150,19 +151,20 @@ export function PetitionForm() {
                   placeholder="Share your testimony..."
                   rows={4}
                   required
+                  className="bg-white dark:bg-slate-800 border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white"
                 />
               </div>
 
               <div>
-                <label className="block text-sm font-medium mb-3">
+                <label className="block text-sm font-medium mb-3 text-slate-700 dark:text-slate-200">
                   GOAT-o-meter: Rate LeBron's Greatness
                 </label>
-                <div className="bg-gradient-to-br from-slate-50 to-slate-100 rounded-lg p-6 space-y-4">
+                <div className="bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-800 dark:to-slate-900 rounded-lg p-6 space-y-4">
                   <div className="text-center">
-                    <div className="text-5xl sm:text-6xl font-display text-cavs-wine mb-1">
+                    <div className="text-5xl sm:text-6xl font-display text-cavs-wine dark:text-cavs-gold mb-1">
                       {goatScore}
                     </div>
-                    <div className="text-sm text-slate-600 font-semibold">{getLabel()}</div>
+                    <div className="text-sm text-slate-600 dark:text-slate-300 font-semibold">{getLabel()}</div>
                   </div>
 
                   <Slider
@@ -173,13 +175,13 @@ export function PetitionForm() {
                     className="w-full"
                   />
 
-                  <div className="flex justify-between text-xs text-slate-500">
+                  <div className="flex justify-between text-xs text-slate-500 dark:text-slate-400">
                     <span>Not the GOAT</span>
                     <span>ABSOLUTE GOAT</span>
                   </div>
 
                   {goatScore > 92 && (
-                    <div className="text-center text-sm text-cavs-wine font-semibold animate-pulse">
+                    <div className="text-center text-sm text-cavs-wine dark:text-cavs-gold font-semibold animate-pulse">
                       Welcome to the Witness Protection Program! 👑
                     </div>
                   )}
@@ -191,7 +193,7 @@ export function PetitionForm() {
               </Button>
 
               {submitted && (
-                <p className="text-center text-sm text-cavs-wine font-semibold">
+                <p className="text-center text-sm text-cavs-wine dark:text-cavs-gold font-semibold">
                   Petition signed! +{goatScore} Glaze Points
                 </p>
               )}

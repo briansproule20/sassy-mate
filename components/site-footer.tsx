@@ -2,7 +2,7 @@ import { Crown } from "lucide-react";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-cavs-navy text-white py-12 px-4">
+    <footer className="bg-cavs-navy dark:bg-slate-950 text-white py-12 px-4 border-t border-cavs-wine/20 dark:border-cavs-gold/20">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center gap-4 text-center">
           <Crown className="w-8 h-8 text-cavs-gold" />

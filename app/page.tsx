@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <>
       <SiteNav />
-      <main>
+      <main className="bg-white dark:bg-cavs-navy">
         <Hero />
         <GoatArguments />
         <TodayInBronHistory />
-        <section className="py-20 px-4">
+        <section className="py-20 px-4 bg-white dark:bg-cavs-navy">
           <div className="max-w-4xl mx-auto">
             <LakersSchedule />
           </div>

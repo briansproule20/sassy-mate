@@ -251,16 +251,16 @@ export default function LeFactsPage() {
   return (
     <>
       <SiteNav />
-      <main className="pt-24 pb-20 px-4 min-h-screen bg-gradient-to-b from-slate-50 to-white">
+      <main className="pt-24 pb-20 px-4 min-h-screen bg-gradient-to-b from-slate-50 to-white dark:from-slate-900 dark:to-cavs-navy">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-flex items-center gap-2 mb-4">
               <Crown className="w-12 h-12 text-cavs-gold" />
             </div>
-            <h1 className="font-display text-7xl md:text-8xl text-cavs-wine mb-4">
+            <h1 className="font-display text-7xl md:text-8xl text-cavs-wine dark:text-cavs-gold mb-4">
               LEFACTS
             </h1>
-            <p className="text-xl text-slate-600 mb-8">
+            <p className="text-xl text-slate-600 dark:text-slate-300 mb-8">
               Mind-blowing facts about the King
             </p>
 
@@ -288,7 +288,7 @@ export default function LeFactsPage() {
               return (
                 <Card
                   key={fact.id}
-                  className="group hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 hover:border-cavs-wine/30 bg-white"
+                  className="group hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 hover:border-cavs-wine/30 dark:hover:border-cavs-gold/30 bg-white dark:bg-slate-900"
                 >
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
@@ -304,11 +304,11 @@ export default function LeFactsPage() {
                             <CategoryIcon className="w-3 h-3" />
                             {fact.category}
                           </Badge>
-                          <Badge variant="outline" className="text-xs">
+                          <Badge variant="outline" className="text-xs text-cavs-navy dark:text-slate-300 border-cavs-navy dark:border-slate-700">
                             #{index + 1}
                           </Badge>
                         </div>
-                        <p className="text-slate-700 leading-relaxed text-sm">
+                        <p className="text-slate-700 dark:text-slate-200 leading-relaxed text-sm">
                           {fact.fact}
                         </p>
                       </div>
@@ -321,7 +321,7 @@ export default function LeFactsPage() {
 
           {filteredFacts.length === 0 && (
             <div className="text-center py-20">
-              <p className="text-slate-500 text-lg">
+              <p className="text-slate-500 dark:text-slate-400 text-lg">
                 No facts found in this category.
               </p>
             </div>

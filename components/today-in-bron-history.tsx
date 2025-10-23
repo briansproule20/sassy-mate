@@ -47,13 +47,13 @@ export function TodayInBronHistory() {
   }
 
   return (
-    <section className="py-16 px-4 bg-gradient-to-br from-slate-50 to-slate-100">
+    <section className="py-16 px-4 bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-950">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-8">
-          <h2 className="font-display text-4xl md:text-5xl text-cavs-wine mb-2">
+          <h2 className="font-display text-4xl md:text-5xl text-cavs-wine dark:text-cavs-gold mb-2">
             TODAY IN BRON HISTORY
           </h2>
-          <p className="text-slate-600 text-lg">
+          <p className="text-slate-600 dark:text-slate-300 text-lg">
             {today.toLocaleDateString("en-US", {
               weekday: "long",
               month: "long",
@@ -62,7 +62,7 @@ export function TodayInBronHistory() {
           </p>
         </div>
 
-        <Card className="border-2 border-cavs-wine/20 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+        <Card className="border-2 border-cavs-wine/20 dark:border-cavs-gold/20 shadow-xl hover:shadow-2xl transition-shadow duration-300 bg-white dark:bg-slate-900">
           <CardHeader className="pb-4">
             <div className="flex items-start justify-between gap-4">
               <div className="flex-1">
@@ -70,26 +70,26 @@ export function TodayInBronHistory() {
                   <Badge className={getCategoryColor(todayEvent.category)}>
                     {getCategoryLabel(todayEvent.category)}
                   </Badge>
-                  <Badge variant="outline" className="font-bold">
+                  <Badge variant="outline" className="font-bold border-slate-300 dark:border-slate-700 text-cavs-navy dark:text-slate-300">
                     {todayEvent.year}
                   </Badge>
                 </div>
-                <CardTitle className="text-2xl md:text-3xl text-cavs-navy leading-tight">
+                <CardTitle className="text-2xl md:text-3xl text-cavs-navy dark:text-cavs-gold leading-tight">
                   {todayEvent.event}
                 </CardTitle>
               </div>
             </div>
           </CardHeader>
           <CardContent>
-            <div className="flex items-center gap-2 text-sm text-slate-600">
+            <div className="flex items-center gap-2 text-sm text-slate-600 dark:text-slate-300">
               <span className="font-semibold">On this day in</span>
-              <span className="font-bold text-cavs-wine">{todayEvent.year}</span>
+              <span className="font-bold text-cavs-wine dark:text-cavs-gold">{todayEvent.year}</span>
               <span>LeBron made history</span>
             </div>
           </CardContent>
         </Card>
 
-        <p className="text-center text-sm text-slate-500 mt-6">
+        <p className="text-center text-sm text-slate-500 dark:text-slate-400 mt-6">
           365 days of greatness. Check back tomorrow for another legendary moment.
         </p>
       </div>

@@ -99,10 +99,10 @@ export default function WitnessesPage() {
     return (
       <>
         <SiteNav />
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center pt-16">
+        <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-cavs-navy flex items-center justify-center pt-16">
           <div className="text-center">
-            <Crown className="w-12 h-12 text-cavs-wine animate-pulse mx-auto mb-4" />
-            <p className="text-slate-600 font-display text-xl">Loading Witnesses...</p>
+            <Crown className="w-12 h-12 text-cavs-wine dark:text-cavs-gold animate-pulse mx-auto mb-4" />
+            <p className="text-slate-600 dark:text-slate-300 font-display text-xl">Loading Witnesses...</p>
           </div>
         </div>
       </>
@@ -115,7 +115,7 @@ export default function WitnessesPage() {
   return (
     <>
       <SiteNav />
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 pt-20 pb-12 px-4">
+      <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-900 dark:to-cavs-navy pt-20 pb-12 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <motion.div
@@ -124,10 +124,10 @@ export default function WitnessesPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="font-display text-6xl md:text-7xl text-cavs-wine mb-4">
+            <h1 className="font-display text-6xl md:text-7xl text-cavs-wine dark:text-cavs-gold mb-4">
               THE WITNESSES
             </h1>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+            <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
               Hall of fame for the most dedicated LeBron believers
             </p>
           </motion.div>
@@ -147,21 +147,21 @@ export default function WitnessesPage() {
               </CardHeader>
             </Card>
 
-            <Card className="border-cavs-gold/20 hover:border-cavs-gold/40 transition-colors">
+            <Card className="border-cavs-gold/20 hover:border-cavs-gold/40 transition-colors bg-white dark:bg-slate-900">
               <CardHeader className="pb-3">
-                <MessageSquare className="w-8 h-8 mb-2 text-cavs-wine" />
-                <CardTitle className="text-3xl font-display text-cavs-wine">{petitions.length}</CardTitle>
-                <CardDescription>Petitions Signed</CardDescription>
+                <MessageSquare className="w-8 h-8 mb-2 text-cavs-wine dark:text-cavs-gold" />
+                <CardTitle className="text-3xl font-display text-cavs-wine dark:text-cavs-gold">{petitions.length}</CardTitle>
+                <CardDescription className="text-slate-600 dark:text-slate-400">Petitions Signed</CardDescription>
               </CardHeader>
             </Card>
 
-            <Card className="border-cavs-gold/20 hover:border-cavs-gold/40 transition-colors">
+            <Card className="border-cavs-gold/20 hover:border-cavs-gold/40 transition-colors bg-white dark:bg-slate-900">
               <CardHeader className="pb-3">
-                <TrendingUp className="w-8 h-8 mb-2 text-cavs-wine" />
-                <CardTitle className="text-3xl font-display text-cavs-wine">
+                <TrendingUp className="w-8 h-8 mb-2 text-cavs-wine dark:text-cavs-gold" />
+                <CardTitle className="text-3xl font-display text-cavs-wine dark:text-cavs-gold">
                   {leaders.length > 0 ? leaders[0]?.points : 0}
                 </CardTitle>
-                <CardDescription>Highest Score</CardDescription>
+                <CardDescription className="text-slate-600 dark:text-slate-400">Highest Score</CardDescription>
               </CardHeader>
             </Card>
           </motion.div>
@@ -183,7 +183,7 @@ export default function WitnessesPage() {
                 {/* Top 3 Podium */}
                 {topThree.length > 0 && (
                   <div className="mb-8">
-                    <h3 className="font-display text-2xl text-cavs-wine text-center mb-6">
+                    <h3 className="font-display text-2xl text-cavs-wine dark:text-cavs-gold text-center mb-6">
                       TOP 3 WITNESSES
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
@@ -194,7 +194,7 @@ export default function WitnessesPage() {
                           animate={{ opacity: 1, scale: 1 }}
                           transition={{ duration: 0.4, delay: index * 0.1 }}
                         >
-                          <Card className={index === 0 ? "bg-gradient-to-br from-yellow-50 to-yellow-100 border-yellow-300" : "border-slate-200"}>
+                          <Card className={index === 0 ? "bg-gradient-to-br from-yellow-50 to-yellow-100 dark:from-yellow-900/20 dark:to-yellow-800/20 border-yellow-300 dark:border-yellow-700" : "border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900"}>
                             <CardHeader className="text-center">
                               <div className="mx-auto mb-4 w-20 h-20 rounded-full bg-cavs-wine text-cavs-gold flex items-center justify-center font-bold text-2xl">
                                 {getInitials(leader.name)}
@@ -204,11 +204,11 @@ export default function WitnessesPage() {
                                 {index === 1 && "🥈"}
                                 {index === 2 && "🥉"}
                               </div>
-                              <CardTitle className="text-xl">{leader.name}</CardTitle>
-                              <div className="text-3xl font-display text-cavs-wine mt-2">
+                              <CardTitle className="text-xl text-slate-900 dark:text-white">{leader.name}</CardTitle>
+                              <div className="text-3xl font-display text-cavs-wine dark:text-cavs-gold mt-2">
                                 {leader.points} pts
                               </div>
-                              <CardDescription className="mt-1">
+                              <CardDescription className="mt-1 text-slate-600 dark:text-slate-400">
                                 {leader.petitionCount || 0} petitions signed
                               </CardDescription>
                             </CardHeader>
@@ -220,14 +220,14 @@ export default function WitnessesPage() {
                 )}
 
                 {/* Rest of Leaderboard */}
-                <Card>
+                <Card className="bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800">
                   <CardHeader>
-                    <CardTitle className="text-cavs-wine">All Witnesses</CardTitle>
-                    <CardDescription>Ranked by glaze points</CardDescription>
+                    <CardTitle className="text-cavs-wine dark:text-cavs-gold">All Witnesses</CardTitle>
+                    <CardDescription className="text-slate-600 dark:text-slate-400">Ranked by glaze points</CardDescription>
                   </CardHeader>
                   <CardContent>
                     {leaders.length === 0 ? (
-                      <p className="text-center text-slate-500 py-8">
+                      <p className="text-center text-slate-500 dark:text-slate-400 py-8">
                         No witnesses yet. Be the first to sign the petition!
                       </p>
                     ) : (
@@ -235,9 +235,9 @@ export default function WitnessesPage() {
                         {leaders.map((leader, index) => (
                           <div
                             key={leader.id}
-                            className="flex items-center gap-4 p-4 rounded-lg bg-slate-50 hover:bg-slate-100 transition-colors"
+                            className="flex items-center gap-4 p-4 rounded-lg bg-slate-50 dark:bg-slate-800 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors"
                           >
-                            <div className="flex-shrink-0 w-10 text-center font-bold text-slate-400">
+                            <div className="flex-shrink-0 w-10 text-center font-bold text-slate-400 dark:text-slate-500">
                               #{index + 1}
                             </div>
 
@@ -246,10 +246,10 @@ export default function WitnessesPage() {
                             </div>
 
                             <div className="flex-1 min-w-0">
-                              <div className="font-semibold text-slate-900 truncate">
+                              <div className="font-semibold text-slate-900 dark:text-white truncate">
                                 {leader.name}
                               </div>
-                              <div className="text-sm text-slate-500">
+                              <div className="text-sm text-slate-500 dark:text-slate-400">
                                 Last seen: {formatDate(leader.lastSeen)}
                               </div>
                             </div>
@@ -272,14 +272,14 @@ export default function WitnessesPage() {
 
               {/* Petitions Tab */}
               <TabsContent value="petitions">
-                <Card>
+                <Card className="bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-800">
                   <CardHeader>
-                    <CardTitle className="text-cavs-wine">All Petitions</CardTitle>
-                    <CardDescription>Testimonies from true believers</CardDescription>
+                    <CardTitle className="text-cavs-wine dark:text-cavs-gold">All Petitions</CardTitle>
+                    <CardDescription className="text-slate-600 dark:text-slate-400">Testimonies from true believers</CardDescription>
                   </CardHeader>
                   <CardContent>
                     {petitions.length === 0 ? (
-                      <p className="text-center text-slate-500 py-8">
+                      <p className="text-center text-slate-500 dark:text-slate-400 py-8">
                         No petitions yet. Be the first to declare your allegiance!
                       </p>
                     ) : (
@@ -287,7 +287,7 @@ export default function WitnessesPage() {
                         {petitions.map((petition) => (
                           <div
                             key={petition.id}
-                            className="p-4 rounded-lg border border-slate-200 hover:border-cavs-wine/30 transition-colors"
+                            className="p-4 rounded-lg border border-slate-200 dark:border-slate-700 hover:border-cavs-wine/30 dark:hover:border-cavs-gold/30 transition-colors bg-white dark:bg-slate-800"
                           >
                             <div className="flex items-start justify-between mb-3">
                               <div className="flex items-center gap-3">
@@ -295,18 +295,18 @@ export default function WitnessesPage() {
                                   {getInitials(petition.name)}
                                 </div>
                                 <div>
-                                  <div className="font-semibold text-slate-900">{petition.name}</div>
-                                  <div className="text-xs text-slate-500">
+                                  <div className="font-semibold text-slate-900 dark:text-white">{petition.name}</div>
+                                  <div className="text-xs text-slate-500 dark:text-slate-400">
                                     {new Date(petition.timestamp).toLocaleDateString()}
                                   </div>
                                 </div>
                               </div>
                               <div className="text-right">
-                                <div className="text-2xl font-display text-cavs-wine">{petition.goatScore}</div>
-                                <div className="text-xs text-slate-600 font-semibold">{petition.goatRank}</div>
+                                <div className="text-2xl font-display text-cavs-wine dark:text-cavs-gold">{petition.goatScore}</div>
+                                <div className="text-xs text-slate-600 dark:text-slate-400 font-semibold">{petition.goatRank}</div>
                               </div>
                             </div>
-                            <p className="text-slate-700 leading-relaxed">{petition.reason}</p>
+                            <p className="text-slate-700 dark:text-slate-200 leading-relaxed">{petition.reason}</p>
                           </div>
                         ))}
                       </div>

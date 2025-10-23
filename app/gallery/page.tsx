@@ -1,10 +1,6 @@
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import Image from "next/image";
-
-const categories = ["All", "Heroic", "Petty", "Fatherly", "Philanthropic"];
 
 const moments = [
   {
@@ -32,7 +28,7 @@ const moments = [
     category: "Heroic",
     description:
       "Facing elimination with the Heat, LeBron delivers a legendary performance.",
-    imageUrl: "https://i.ytimg.com/vi/O213Wxv9uT4/maxresdefault.jpg",
+    imageUrl: "https://static01.nyt.com/images/2012/06/09/sports/nba/nba-superJumbo.jpg",
   },
   {
     id: "9",
@@ -41,7 +37,7 @@ const moments = [
     category: "Fatherly",
     description:
       'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
-    imageUrl: "https://i.ytimg.com/vi/pnHq-xsc9A4/maxresdefault.jpg",
+    imageUrl: "https://www.si.com/.image/c_fill,w_1200,ar_16:9,f_auto,q_auto,g_auto/MTY4MjU2MjkwMDU5NTI4MDkz/lebron-james-cleveland-cavaliers-return.jpg",
   },
   {
     id: "1",
@@ -94,30 +90,22 @@ export default function GalleryPage() {
   return (
     <>
       <SiteNav />
-      <main className="pt-24 pb-20 px-4 min-h-screen">
+      <main className="pt-24 pb-20 px-4 min-h-screen bg-white dark:bg-cavs-navy">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h1 className="font-display text-7xl md:text-8xl text-cavs-wine mb-4">
+            <h1 className="font-display text-7xl md:text-8xl text-cavs-wine dark:text-cavs-gold mb-4">
               WITNESS GALLERY
             </h1>
-            <p className="text-xl text-slate-600 mb-8">
+            <p className="text-xl text-slate-600 dark:text-slate-300 mb-8">
               Legendary moments that defined greatness
             </p>
-
-            <div className="flex flex-wrap justify-center gap-2">
-              {categories.map((cat) => (
-                <Button key={cat} variant={cat === "All" ? "default" : "outline"} size="sm">
-                  {cat}
-                </Button>
-              ))}
-            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {moments.map((moment) => (
               <div
                 key={moment.id}
-                className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:border-cavs-wine/20 transition-all duration-300 overflow-hidden flex flex-col h-full"
+                className="group bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm hover:shadow-lg hover:border-cavs-wine/20 dark:hover:border-cavs-gold/20 transition-all duration-300 overflow-hidden flex flex-col h-full"
               >
                 <div className="relative aspect-video overflow-hidden bg-gradient-to-br from-cavs-wine to-cavs-navy">
                   <Image
@@ -128,19 +116,13 @@ export default function GalleryPage() {
                     unoptimized
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-                  <Badge 
-                    variant="secondary" 
-                    className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm z-10"
-                  >
-                    {moment.category}
-                  </Badge>
                 </div>
                 <div className="p-5 flex flex-col flex-grow">
-                  <h3 className="font-semibold text-xl text-cavs-wine mb-2 group-hover:text-cavs-navy transition-colors">
+                  <h3 className="font-semibold text-xl text-cavs-wine dark:text-cavs-gold mb-2 group-hover:text-cavs-navy dark:group-hover:text-cavs-gold transition-colors">
                     {moment.title}
                   </h3>
-                  <p className="text-sm text-slate-500 mb-3">{moment.date}</p>
-                  <p className="text-sm text-slate-700 leading-relaxed flex-grow">
+                  <p className="text-sm text-slate-500 dark:text-slate-400 mb-3">{moment.date}</p>
+                  <p className="text-sm text-slate-700 dark:text-slate-200 leading-relaxed flex-grow">
                     {moment.description}
                   </p>
                 </div>

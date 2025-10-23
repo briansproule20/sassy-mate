@@ -291,3 +291,4 @@ Debug info:
 - Execution of get_client_resolve_options_context failed
 - Execution of get_transpiled_packages failed
 - Expected file content at [project]/sassy-mate/node_modules/next/dist/lib/default-transpiled-packages.json
+[00:53:55.450] Server  LOG        Reload env: .env.local

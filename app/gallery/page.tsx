@@ -14,7 +14,7 @@ const moments = [
     category: "Heroic",
     description:
       "The most iconic defensive play in Finals history. LeBron chases down Andre Iguodala and pins his layup attempt against the backboard in Game 7.",
-    imageUrl: "https://i.ytimg.com/vi/py0-l1M_870/maxresdefault.jpg",
+    imageUrl: "https://s3-prod.crainscleveland.com/s3fs-public/The%20Block_i.jpg",
   },
   {
     id: "2",

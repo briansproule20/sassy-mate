@@ -2,6 +2,7 @@ import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const categories = ["All", "Heroic", "Petty", "Fatherly", "Philanthropic"];
 
@@ -118,16 +119,18 @@ export default function GalleryPage() {
                 key={moment.id}
                 className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:border-cavs-wine/20 transition-all duration-300 overflow-hidden flex flex-col h-full"
               >
-                <div className="relative aspect-video overflow-hidden">
-                  <img
+                <div className="relative aspect-video overflow-hidden bg-gradient-to-br from-cavs-wine to-cavs-navy">
+                  <Image
                     src={moment.imageUrl}
                     alt={moment.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    unoptimized
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                   <Badge 
                     variant="secondary" 
-                    className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm"
+                    className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm z-10"
                   >
                     {moment.category}
                   </Badge>

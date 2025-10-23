@@ -1,5 +1,6 @@
 {
   "/api/teams/lakers/upcoming/route": "app/api/teams/lakers/upcoming/route.js",
   "/api/witnesses/leaderboard/route": "app/api/witnesses/leaderboard/route.js",
+  "/gallery/page": "app/gallery/page.js",
   "/page": "app/page.js"
 }

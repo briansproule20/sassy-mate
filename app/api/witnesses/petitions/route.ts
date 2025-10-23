@@ -70,14 +70,15 @@ export async function POST(request: Request) {
     // Add petition ID to list
     await redis.lpush("petitions", petitionId);
 
-    // Update leaderboard (sorted set by points)
-    await redis.zincrby("leaderboard", 10, name);
+    // Update leaderboard (sorted set by points) - use actual goatScore
+    await redis.zincrby("leaderboard", goatScore, name);
 
     // Update user data
     const existingUser = await redis.hgetall(`user:${name}`);
     await redis.hset(`user:${name}`, {
       lastSeen: new Date().toISOString(),
       petitionCount: (existingUser?.petitionCount as number || 0) + 1,
+      totalPoints: (existingUser?.totalPoints as number || 0) + goatScore,
     });
 
     return NextResponse.json({

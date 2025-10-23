@@ -13,7 +13,7 @@ const moments = [
     category: "Heroic",
     description:
       "The most iconic defensive play in Finals history. LeBron chases down Andre Iguodala and pins his layup attempt against the backboard in Game 7.",
-    imageUrl: "https://i.imgur.com/8KqZ5xY.jpg",
+    imageUrl: "https://cdn.nba.com/manage/2021/08/lebron-james-block-game-7-784x523.jpg",
   },
   {
     id: "2",
@@ -22,7 +22,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron delivers on his promise, bringing Cleveland its first championship in 52 years.",
-    imageUrl: "https://i.imgur.com/QwxPvXr.jpg",
+    imageUrl: "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2021-08/lebron-james-crying-nba-finals-2016_1w0fzhx35mf6g1bk80e8qdxhwx.jpg",
   },
   {
     id: "3",
@@ -31,7 +31,7 @@ const moments = [
     category: "Petty",
     description:
       'LeBron announces "I\'m taking my talents to South Beach" on live TV. Cleveland burns jerseys. The villain era begins.',
-    imageUrl: "https://i.imgur.com/7YqGZ9K.jpg",
+    imageUrl: "https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4MTg0MjIzMzI5OTU0OTY1/lebron-james-the-decision.jpg",
   },
   {
     id: "4",
@@ -40,7 +40,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron drops 46-11-9 to force a Game 7 against the Celtics in the ECF.",
-    imageUrl: "https://i.imgur.com/mKxN2wP.jpg",
+    imageUrl: "https://cdn.nba.com/manage/2020/10/lebron-james-celebration-iso-784x523.jpg",
   },
   {
     id: "5",
@@ -49,7 +49,7 @@ const moments = [
     category: "Heroic",
     description:
       "22-year-old LeBron scores the Cavs' final 25 points to beat the Pistons in Game 5 ECF.",
-    imageUrl: "https://i.imgur.com/3jBvXqH.jpg",
+    imageUrl: "https://cdn.nba.com/manage/2021/06/GettyImages-71950424-scaled-e1624480791388.jpg",
   },
   {
     id: "6",
@@ -58,7 +58,7 @@ const moments = [
     category: "Philanthropic",
     description:
       "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
-    imageUrl: "https://i.imgur.com/yRnK5wL.jpg",
+    imageUrl: "https://www.gannett-cdn.com/presto/2018/07/30/USAT/aa1d33a9-8b5b-47e6-b5f0-96d1614c0596-USP_NBA_LeBron_James_I_Promise_School_Opening.JPG",
   },
   {
     id: "7",
@@ -67,7 +67,7 @@ const moments = [
     category: "Heroic",
     description:
       "Facing elimination with the Heat, LeBron delivers a legendary performance.",
-    imageUrl: "https://i.imgur.com/vZxQ8mR.jpg",
+    imageUrl: "https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4MTg1MDcyMzI5NTE5NDIx/lebron-james-2012-playoffs.jpg",
   },
   {
     id: "8",
@@ -76,7 +76,7 @@ const moments = [
     category: "Petty",
     description:
       "LeBron drops 51 in Game 1 Finals. JR forgets the score. Cavs lose in OT. Unbearable pain.",
-    imageUrl: "https://i.imgur.com/nLqW7vY.jpg",
+    imageUrl: "https://sportshub.cbsistatic.com/i/r/2018/06/01/d7c8c9e8-e53a-47f3-a7f6-c6e6e0e2f0a4/thumbnail/1200x675/4c0e9d9f8c5c7a5c7a5c7a5c7a5c7a5/lebron-jr-smith.jpg",
   },
   {
     id: "9",
@@ -85,7 +85,7 @@ const moments = [
     category: "Fatherly",
     description:
       'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
-    imageUrl: "https://i.imgur.com/pXvR9mK.jpg",
+    imageUrl: "https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4MTg0MjQ0NzQ2MTU2MDA5/lebron-james-return-cleveland.jpg",
   },
 ];
 

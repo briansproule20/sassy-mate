@@ -1,9 +1,7 @@
 import { SiteNav } from "@/components/site-nav";
 import { SiteFooter } from "@/components/site-footer";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const categories = ["All", "Heroic", "Petty", "Fatherly", "Philanthropic"];
 
@@ -15,7 +13,7 @@ const moments = [
     category: "Heroic",
     description:
       "The most iconic defensive play in Finals history. LeBron chases down Andre Iguodala and pins his layup attempt against the backboard in Game 7.",
-    imageUrl: "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/8KqZ5xY.jpg",
   },
   {
     id: "2",
@@ -24,61 +22,70 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron delivers on his promise, bringing Cleveland its first championship in 52 years.",
-    imageUrl: "https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/QwxPvXr.jpg",
   },
   {
     id: "3",
+    title: "The Decision",
+    date: "July 8, 2010",
+    category: "Petty",
+    description:
+      'LeBron announces "I\'m taking my talents to South Beach" on live TV. Cleveland burns jerseys. The villain era begins.',
+    imageUrl: "https://i.imgur.com/7YqGZ9K.jpg",
+  },
+  {
+    id: "4",
     title: "46 Points vs Boston",
     date: "May 25, 2018",
     category: "Heroic",
     description:
       "LeBron drops 46-11-9 to force a Game 7 against the Celtics in the ECF.",
-    imageUrl: "https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/mKxN2wP.jpg",
   },
   {
-    id: "4",
+    id: "5",
     title: "The 25 Straight",
     date: "May 31, 2007",
     category: "Heroic",
     description:
       "22-year-old LeBron scores the Cavs' final 25 points to beat the Pistons in Game 5 ECF.",
-    imageUrl: "https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/3jBvXqH.jpg",
   },
   {
-    id: "5",
+    id: "6",
     title: "I Promise School",
     date: "July 30, 2018",
     category: "Philanthropic",
     description:
       "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
-    imageUrl: "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/yRnK5wL.jpg",
   },
   {
-    id: "6",
+    id: "7",
     title: "45 Points Game 6 vs Boston",
     date: "June 9, 2012",
     category: "Heroic",
     description:
       "Facing elimination with the Heat, LeBron delivers a legendary performance.",
-    imageUrl: "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/vZxQ8mR.jpg",
   },
   {
-    id: "7",
+    id: "8",
     title: "JR Smith Moment",
     date: "June 8, 2018",
     category: "Petty",
     description:
       "LeBron drops 51 in Game 1 Finals. JR forgets the score. Cavs lose in OT. Unbearable pain.",
-    imageUrl: "https://images.unsplash.com/photo-1515523110800-9415d13b84a8?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/nLqW7vY.jpg",
   },
   {
-    id: "8",
+    id: "9",
     title: "The Return",
     date: "July 11, 2014",
     category: "Fatherly",
     description:
       'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
-    imageUrl: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=800&h=600&fit=crop",
+    imageUrl: "https://i.imgur.com/pXvR9mK.jpg",
   },
 ];
 
@@ -88,19 +95,12 @@ export default function GalleryPage() {
       <SiteNav />
       <main className="pt-24 pb-20 px-4 min-h-screen">
         <div className="max-w-7xl mx-auto">
-          <Link href="/">
-            <Button variant="ghost" className="mb-8">
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              Back to Home
-            </Button>
-          </Link>
-
           <div className="text-center mb-12">
-            <h1 className="font-display text-6xl text-cavs-wine mb-4">
-              THE WITNESS HALL
+            <h1 className="font-display text-7xl md:text-8xl text-cavs-wine mb-4">
+              WITNESS GALLERY
             </h1>
             <p className="text-xl text-slate-600 mb-8">
-              A gallery of legendary moments
+              Legendary moments that defined greatness
             </p>
 
             <div className="flex flex-wrap justify-center gap-2">

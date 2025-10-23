@@ -13,6 +13,7 @@ export function PetitionForm() {
   const [reason, setReason] = useState("");
   const [goatScore, setGoatScore] = useState(50);
   const [submitted, setSubmitted] = useState(false);
+  const [submittedScore, setSubmittedScore] = useState(0);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -54,6 +55,8 @@ export function PetitionForm() {
       });
     }
 
+    // Save the score before resetting
+    setSubmittedScore(goatScore);
     setSubmitted(true);
     setName("");
     setReason("");
@@ -165,7 +168,7 @@ export function PetitionForm() {
 
               {submitted && (
                 <p className="text-center text-sm text-cavs-wine dark:text-cavs-gold font-semibold">
-                  Petition signed! +{goatScore} Glaze Points
+                  Petition signed! +{submittedScore} Glaze Points
                 </p>
               )}
             </form>

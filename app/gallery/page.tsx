@@ -14,7 +14,7 @@ const moments = [
     category: "Heroic",
     description:
       "The most iconic defensive play in Finals history. LeBron chases down Andre Iguodala and pins his layup attempt against the backboard in Game 7.",
-    imageUrl: "https://cdn.nba.com/manage/2021/08/lebron-james-block-game-7-784x523.jpg",
+    imageUrl: "https://i.ytimg.com/vi/py0-l1M_870/maxresdefault.jpg",
   },
   {
     id: "2",
@@ -41,7 +41,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron drops 46-11-9 to force a Game 7 against the Celtics in the ECF.",
-    imageUrl: "https://cdn.nba.com/manage/2020/10/lebron-james-celebration-iso-784x523.jpg",
+    imageUrl: "https://i.ytimg.com/vi/OxYXc7UcJ6E/maxresdefault.jpg",
   },
   {
     id: "5",
@@ -50,7 +50,7 @@ const moments = [
     category: "Heroic",
     description:
       "22-year-old LeBron scores the Cavs' final 25 points to beat the Pistons in Game 5 ECF.",
-    imageUrl: "https://cdn.nba.com/manage/2021/06/GettyImages-71950424-scaled-e1624480791388.jpg",
+    imageUrl: "https://i.ytimg.com/vi/JHaSiWClteQ/maxresdefault.jpg",
   },
   {
     id: "6",
@@ -59,7 +59,7 @@ const moments = [
     category: "Philanthropic",
     description:
       "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
-    imageUrl: "https://www.gannett-cdn.com/presto/2018/07/30/USAT/aa1d33a9-8b5b-47e6-b5f0-96d1614c0596-USP_NBA_LeBron_James_I_Promise_School_Opening.JPG",
+    imageUrl: "https://i.ytimg.com/vi/IC76WFMZnfo/maxresdefault.jpg",
   },
   {
     id: "7",
@@ -68,7 +68,7 @@ const moments = [
     category: "Heroic",
     description:
       "Facing elimination with the Heat, LeBron delivers a legendary performance.",
-    imageUrl: "https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4MTg1MDcyMzI5NTE5NDIx/lebron-james-2012-playoffs.jpg",
+    imageUrl: "https://i.ytimg.com/vi/O213Wxv9uT4/maxresdefault.jpg",
   },
   {
     id: "8",
@@ -77,7 +77,7 @@ const moments = [
     category: "Petty",
     description:
       "LeBron drops 51 in Game 1 Finals. JR forgets the score. Cavs lose in OT. Unbearable pain.",
-    imageUrl: "https://sportshub.cbsistatic.com/i/r/2018/06/01/d7c8c9e8-e53a-47f3-a7f6-c6e6e0e2f0a4/thumbnail/1200x675/4c0e9d9f8c5c7a5c7a5c7a5c7a5c7a5/lebron-jr-smith.jpg",
+    imageUrl: "https://i.ytimg.com/vi/wRMwVaeduwE/maxresdefault.jpg",
   },
   {
     id: "9",
@@ -86,7 +86,7 @@ const moments = [
     category: "Fatherly",
     description:
       'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
-    imageUrl: "https://www.si.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTY4MTg0MjQ0NzQ2MTU2MDA5/lebron-james-return-cleveland.jpg",
+    imageUrl: "https://i.ytimg.com/vi/pnHq-xsc9A4/maxresdefault.jpg",
   },
 ];
 

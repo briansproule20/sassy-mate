@@ -1,0 +1,201 @@
+[00:00:00.564] Server  LOG      ✓ Ready in 431ms
+[00:00:00.653] Browser LOG     [ChromeTransport] chromePort disconnected
+[00:00:01.775] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:02.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.205] Server  ERROR   LeBron API error: Error: Failed to fetch games
+[00:00:03.564] Server  ERROR   LeBron career stats error: TypeError: Cannot read properties of undefined (reading 'toFixed')
+[00:00:09.355] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.704] Server  ERROR   Cavs next game API error: Error: Failed to fetch team
+[00:00:09.855] Server  ERROR   LeBron API error: Error: Failed to fetch games
+[00:00:11.751] Server  ERROR   LeBron API error: Error: Failed to fetch games
+[00:00:12.000] Server  ERROR   LeBron career stats error: TypeError: Cannot read properties of undefined (reading 'toFixed')
+[00:00:12.307] Server  ERROR   LeBron API error: Error: Failed to fetch games
+[00:00:12.885] Server  ERROR   LeBron career stats error: TypeError: Cannot read properties of undefined (reading 'toFixed')
+[00:01:13.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:14.119] Server  ERROR   NBA API Error Response: {}
+[00:01:14.205] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:01:14.898] Server  ERROR   LeBron career stats error: TypeError: Cannot read properties of undefined (reading 'toFixed')
+[00:01:20.809] Server  ERROR   NBA API Error Response: {}
+[00:01:20.865] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:01:21.252] Server  ERROR   LeBron career stats error: TypeError: Cannot read properties of undefined (reading 'toFixed')
+[00:02:00.648] Server  ERROR   NBA API Error Response: {}
+[00:02:00.718] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:02:01.327] Server  LOG     Season stats count: 0
+[00:02:01.330] Server  ERROR   No season stats retrieved from API
+[00:02:27.843] Server  ERROR   NBA API Error Response: {}
+[00:02:27.922] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:02:27.924] Server  LOG     Season stats count: 0
+[00:02:27.924] Server  ERROR   No season stats retrieved from API
+[00:03:17.775] Server  LOG     Season stats count: 0
+[00:03:17.775] Server  ERROR   No season stats retrieved from API
+[00:03:17.875] Server  ERROR   NBA API Error Response: {}
+[00:03:17.960] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:03:22.054] Server  ERROR   NBA API Error Response: {}
+[00:03:22.106] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:03:26.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:26.650] Server  ERROR   NBA API Error Response: {}
+[00:03:26.725] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:03:27.666] Server  ERROR   NBA API Error Response: {}
+[00:03:27.724] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:03:27.974] Server  ERROR   NBA API Error Response: {}
+[00:03:28.028] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:03:28.661] Server  LOG     Season stats count: 0
+[00:03:28.663] Server  ERROR   No season stats retrieved from API
+[00:03:29.160] Server  LOG     Season stats count: 0
+[00:03:29.161] Server  ERROR   No season stats retrieved from API
+[00:03:29.549] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:30.723] Server  LOG     Season stats count: 0
+[00:03:30.724] Server  ERROR   No season stats retrieved from API
+[00:03:30.727] Server  ERROR   NBA API Error Response: {}
+[00:03:30.774] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:04:11.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:12.105] Server  ERROR   NBA API Error Response: {}
+[00:04:12.167] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:04:12.202] Server  LOG     Season stats count: 0
+[00:04:12.202] Server  ERROR   No season stats retrieved from API
+[00:04:13.573] Server  ERROR   NBA API Error Response: {}
+[00:04:13.637] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:04:22.313] Server  LOG     Season stats count: 0
+[00:04:22.315] Server  ERROR   No season stats retrieved from API
+[00:04:22.877] Server  LOG     Season stats count: 0
+[00:04:22.877] Server  ERROR   No season stats retrieved from API
+[00:04:25.131] Server  ERROR   NBA API Error Response: {}
+[00:04:25.199] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:04:36.907] Server  ERROR   NBA API Error Response: {}
+[00:04:36.957] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:04:37.011] Server  LOG     Season stats count: 0
+[00:04:37.011] Server  ERROR   No season stats retrieved from API
+[00:04:37.224] Server  ERROR   NBA API Error Response: {}
+[00:04:37.283] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:04:37.447] Server  LOG     Season stats count: 0
+[00:04:37.448] Server  ERROR   No season stats retrieved from API
+[00:04:41.478] Server  ERROR   NBA API Error Response: {}
+[00:04:41.535] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:05:17.376] Server  ERROR   NBA API Error Response: {}
+[00:05:17.426] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:05:23.563] Server  LOG     Season stats count: 0
+[00:05:23.563] Server  ERROR   No season stats retrieved from API
+[00:05:23.569] Server  ERROR   NBA API Error Response: {}
+[00:05:23.618] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:05:24.242] Server  ERROR   NBA API Error Response: {}
+[00:05:24.296] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:05:24.316] Server  LOG     Season stats count: 0
+[00:05:24.316] Server  ERROR   No season stats retrieved from API
+[00:05:25.110] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:25.389] Server  ERROR   NBA API Error Response: {}
+[00:05:25.442] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:05:25.599] Server  LOG     Season stats count: 0
+[00:05:25.599] Server  ERROR   No season stats retrieved from API
+[00:06:22.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:23.819] Server  LOG     Season stats count: 0
+[00:06:23.820] Server  ERROR   No season stats retrieved from API
+[00:06:23.838] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:23.872] Server  ERROR   NBA API Error Response: {}
+[00:06:23.927] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:06:24.211] Server  ERROR   NBA API Error Response: {}
+[00:06:24.259] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:06:24.388] Server  LOG     Season stats count: 0
+[00:06:24.388] Server  ERROR   No season stats retrieved from API
+[00:06:38.061] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:38.664] Server  ERROR   NBA API Error Response: {}
+[00:06:38.730] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:06:38.811] Server  LOG     Season stats count: 0
+[00:06:38.811] Server  ERROR   No season stats retrieved from API
+[00:06:41.993] Server  LOG     Season stats count: 0
+[00:06:41.994] Server  ERROR   No season stats retrieved from API
+[00:06:49.259] Server  ERROR   NBA API Error Response: {}
+[00:06:49.317] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:07:19.772] Server  ERROR   NBA API Error Response: {}
+[00:07:19.824] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:07:20.293] Server  LOG     Season stats count: 0
+[00:07:20.293] Server  ERROR   No season stats retrieved from API
+[00:07:26.197] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:26.755] Server  ERROR   NBA API Error Response: {}
+[00:07:26.800] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:07:26.897] Server  LOG     Season stats count: 0
+[00:07:26.897] Server  ERROR   No season stats retrieved from API
+[00:07:43.668] Server  ERROR   NBA API Error Response: {}
+[00:07:43.733] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:07:46.721] Server  ERROR   NBA API Error Response: {}
+[00:07:46.768] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:07:47.041] Server  ERROR   NBA API Error Response: {}
+[00:07:47.070] Server  ERROR   LeBron API error: Error: Failed to fetch games: 401 Unauthorized
+[00:07:47.144] Server  LOG     Season stats count: 0
+[00:07:47.144] Server  ERROR   No season stats retrieved from API
+[00:08:56.008] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:37.137] Server  LOG      ✓ Compiled in 14ms
+[00:09:39.830] Server  LOG      ✓ Compiled in 14ms
+[00:09:48.172] Server  LOG      ✓ Compiled in 13ms
+[00:09:48.867] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:48.940] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:48.942] Server  LOG      ✓ Compiled in 10ms
+[00:09:49.863] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:09:49.865] Server  LOG      ✓ Compiled in 21ms
+[00:09:50.420] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:58.585] Server  LOG      ✓ Compiled in 13ms
+[00:10:02.269] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:10:20.590] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:10:46.881] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:10:47.867] Server  LOG      ✓ Compiled in 25ms
+[00:11:46.149] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:53.772] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:11:53.845] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:11:53.854] Server  LOG      ✓ Compiled in 26ms
+[00:11:54.154] Server  LOG      ✓ Compiled in 0ms
+[00:11:59.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:10.566] Server  LOG      ✓ Compiled in 25ms
+[00:12:17.695] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:12:31.018] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:09.182] Server  ERROR   Lakers upcoming games error: Error: Failed to fetch games
+[00:14:08.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:28.667] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.512] Browser ERROR   uncaughtError: TypeError: games.map is not a function
+[00:14:45.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:45.500] Browser ERROR   uncaughtError: TypeError: games.map is not a function
+[00:15:08.105] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:08.177] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:15:08.178] Server  LOG      ✓ Compiled in 31ms
+[00:15:08.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:18.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:46.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:47.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:54.175] Server  LOG      ✓ Compiled in 24ms
+[00:18:31.476] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:18:31.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:33.621] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:57.663] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:15.100] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:38.126] Server  LOG      ✓ Compiled in 26ms
+[00:19:57.932] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:19:58.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:04.205] Server  LOG      ✓ Compiled in 28ms
+[00:20:22.261] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:22.462] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:37.638] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:20:37.676] Server  LOG      ✓ Compiled in 0ms
+[00:20:49.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:53.041] Server  LOG      ✓ Compiled in 19ms
+[00:21:45.683] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:21:45.984] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:00.244] Server  LOG      ✓ Compiled in 28ms
+[00:22:57.733] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:23:02.927] Server  LOG      ✓ Compiled in 15ms
+[00:23:09.701] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:23:21.220] Server  LOG      ✓ Compiled in 13ms
+[00:23:21.305] Browser ERROR   A component is changing a controlled input to be uncontrolled. This is likely caused by the value changing from a defined to undefined, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[00:23:21.433] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:23:21.762] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:01.031] Server  LOG      ✓ Compiled in 17ms
+[00:24:16.754] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:24:17.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:48.005] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:26:48.007] Server  LOG      ✓ Compiled in 22ms
+[00:26:48.234] Server  LOG      ✓ Compiled in 25ms
+[00:26:53.770] Server  LOG      ✓ Compiled in 36ms
+[00:26:59.365] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:27:07.697] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:27:48.725] Server  LOG      ✓ Compiled in 15ms
+[00:28:01.346] Server  LOG      ✓ Compiled in 14ms
+[00:29:32.342] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:29:32.638] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

@@ -1,0 +1,27 @@
+/* [project]/sassy-mate/app/bebas_5739e053.module.css [app-client] (css) */
+@font-face {
+  font-family: bebas;
+  src: url("../media/BebasNeue_Regular-s.p.18574fca.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: bebas Fallback;
+  src: local(Arial);
+  ascent-override: 116.72%;
+  descent-override: 38.91%;
+  line-gap-override: 0.0%;
+  size-adjust: 77.11%;
+}
+
+.bebas_5739e053-module__XvwDAG__className {
+  font-family: bebas, bebas Fallback, sans-serif;
+}
+
+.bebas_5739e053-module__XvwDAG__variable {
+  --font-bebas: "bebas", "bebas Fallback", sans-serif;
+}
+
+/*# sourceMappingURL=sassy-mate_app_bebas_5739e053_module_css_bad6b30c._.single.css.map*/

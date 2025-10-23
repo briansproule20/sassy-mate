@@ -1,0 +1,11 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/f4d67_next_dist_82ff0931._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__c646a57f._.js")
+R.c("server/chunks/ssr/_de35187b._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__864ab248._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__935c9c14._.js")
+R.c("server/chunks/ssr/f4d67_next_dist_client_components_3395ba4e._.js")
+R.c("server/chunks/ssr/f4d67_next_dist_client_components_builtin_forbidden_e04cd35b.js")
+R.c("server/chunks/ssr/sassy-mate__next-internal_server_app__not-found_page_actions_0ff2c6ee.js")
+R.m("[project]/sassy-mate/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { MODULE_0 => \"[project]/sassy-mate/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)")
+module.exports=R.m("[project]/sassy-mate/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { MODULE_0 => \"[project]/sassy-mate/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/sassy-mate/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)").exports

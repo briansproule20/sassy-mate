@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(curl:*)",
+      "Read(//private/var/folders/**)",
+      "Bash(npm run dev:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(cat:*)",
+      "WebFetch(domain:docs.balldontlie.io)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

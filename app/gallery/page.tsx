@@ -8,6 +8,42 @@ const categories = ["All", "Heroic", "Petty", "Fatherly", "Philanthropic"];
 
 const moments = [
   {
+    id: "5",
+    title: "The 25 Straight",
+    date: "May 31, 2007",
+    category: "Heroic",
+    description:
+      "22-year-old LeBron scores the Cavs' final 25 points to beat the Pistons in Game 5 ECF.",
+    imageUrl: "https://content.ksdk.com/photo/2014/07/11/1405096463000-lebron_4228876_ver1.0.jpg",
+  },
+  {
+    id: "3",
+    title: "The Decision",
+    date: "July 8, 2010",
+    category: "Petty",
+    description:
+      'LeBron announces "I\'m taking my talents to South Beach" on live TV. Cleveland burns jerseys. The villain era begins.',
+    imageUrl: "https://i.ytimg.com/vi/Afpgnb_9bA4/hq720.jpg",
+  },
+  {
+    id: "7",
+    title: "45 Points Game 6 vs Boston",
+    date: "June 9, 2012",
+    category: "Heroic",
+    description:
+      "Facing elimination with the Heat, LeBron delivers a legendary performance.",
+    imageUrl: "https://i.ytimg.com/vi/O213Wxv9uT4/maxresdefault.jpg",
+  },
+  {
+    id: "9",
+    title: "The Return",
+    date: "July 11, 2014",
+    category: "Fatherly",
+    description:
+      'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
+    imageUrl: "https://i.ytimg.com/vi/pnHq-xsc9A4/maxresdefault.jpg",
+  },
+  {
     id: "1",
     title: "The Block",
     date: "June 19, 2016",
@@ -26,15 +62,6 @@ const moments = [
     imageUrl: "https://sportshub.cbsistatic.com/i/r/2020/10/15/294a04c2-1252-4f11-b082-b73130e4aec0/thumbnail/1200x675/fd6fd6f0e138aab5ce5b3ec069f82d31/lebron-finals-2016.jpg",
   },
   {
-    id: "3",
-    title: "The Decision",
-    date: "July 8, 2010",
-    category: "Petty",
-    description:
-      'LeBron announces "I\'m taking my talents to South Beach" on live TV. Cleveland burns jerseys. The villain era begins.',
-    imageUrl: "https://i.ytimg.com/vi/Afpgnb_9bA4/hq720.jpg",
-  },
-  {
     id: "4",
     title: "46 Points vs Boston",
     date: "May 25, 2018",
@@ -42,33 +69,6 @@ const moments = [
     description:
       "LeBron drops 46-11-9 to force a Game 7 against the Celtics in the ECF.",
     imageUrl: "https://i.ytimg.com/vi/OxYXc7UcJ6E/maxresdefault.jpg",
-  },
-  {
-    id: "5",
-    title: "The 25 Straight",
-    date: "May 31, 2007",
-    category: "Heroic",
-    description:
-      "22-year-old LeBron scores the Cavs' final 25 points to beat the Pistons in Game 5 ECF.",
-    imageUrl: "https://i.ytimg.com/vi/JHaSiWClteQ/maxresdefault.jpg",
-  },
-  {
-    id: "6",
-    title: "I Promise School",
-    date: "July 30, 2018",
-    category: "Philanthropic",
-    description:
-      "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
-    imageUrl: "https://i.ytimg.com/vi/IC76WFMZnfo/maxresdefault.jpg",
-  },
-  {
-    id: "7",
-    title: "45 Points Game 6 vs Boston",
-    date: "June 9, 2012",
-    category: "Heroic",
-    description:
-      "Facing elimination with the Heat, LeBron delivers a legendary performance.",
-    imageUrl: "https://i.ytimg.com/vi/O213Wxv9uT4/maxresdefault.jpg",
   },
   {
     id: "8",
@@ -80,13 +80,13 @@ const moments = [
     imageUrl: "https://i.ytimg.com/vi/wRMwVaeduwE/maxresdefault.jpg",
   },
   {
-    id: "9",
-    title: "The Return",
-    date: "July 11, 2014",
-    category: "Fatherly",
+    id: "6",
+    title: "I Promise School",
+    date: "July 30, 2018",
+    category: "Philanthropic",
     description:
-      'LeBron announces he\'s coming back to Cleveland: "I\'m coming home."',
-    imageUrl: "https://i.ytimg.com/vi/pnHq-xsc9A4/maxresdefault.jpg",
+      "LeBron opens a public school in Akron for at-risk youth, changing lives forever.",
+    imageUrl: "https://i.ytimg.com/vi/IC76WFMZnfo/maxresdefault.jpg",
   },
 ];
 

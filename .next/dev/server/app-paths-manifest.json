@@ -4,5 +4,6 @@
   "/api/witnesses/leaderboard/route": "app/api/witnesses/leaderboard/route.js",
   "/compare/page": "app/compare/page.js",
   "/gallery/page": "app/gallery/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/stats/page": "app/stats/page.js"
 }

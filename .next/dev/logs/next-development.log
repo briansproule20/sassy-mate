@@ -44,3 +44,4 @@ All exports of the module are statically known (It doesn't have dynamic exports)
 [00:37:52.971] Server  WARN     ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
 [00:38:31.669] Server  LOG      ✓ Compiled in 15ms
 [00:39:10.607] Server  LOG      ✓ Compiled in 14ms
+[00:40:27.248] Server  LOG      ✓ Compiled in 25ms

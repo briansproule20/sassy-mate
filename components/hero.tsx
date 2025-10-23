@@ -64,14 +64,8 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <Button size="lg" onClick={() => document.getElementById("goat")?.scrollIntoView({ behavior: "smooth" })}>
-            Make Your Case
-          </Button>
-          <Button size="lg" variant="outline" onClick={() => document.getElementById("petition")?.scrollIntoView({ behavior: "smooth" })}>
-            Sign the Petition
-          </Button>
-          <Button size="lg" variant="outline">
-            Open Gallery
+          <Button size="lg" className="text-lg px-8 py-6" onClick={() => document.getElementById("petition")?.scrollIntoView({ behavior: "smooth" })}>
+            Become a Witness
           </Button>
         </motion.div>
       </div>

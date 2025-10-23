@@ -23,7 +23,7 @@ const moments = [
     category: "Heroic",
     description:
       "LeBron delivers on his promise, bringing Cleveland its first championship in 52 years.",
-    imageUrl: "https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2021-08/lebron-james-crying-nba-finals-2016_1w0fzhx35mf6g1bk80e8qdxhwx.jpg",
+    imageUrl: "https://www.ideastream.org/sites/default/files/styles/twitter_large_card/public/2023-06/GettyImages-542332126.jpg",
   },
   {
     id: "3",

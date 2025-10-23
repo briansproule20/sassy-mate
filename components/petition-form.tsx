@@ -192,7 +192,7 @@ export function PetitionForm() {
 
               {submitted && (
                 <p className="text-center text-sm text-cavs-wine font-semibold">
-                  Petition signed! +10 Glaze Points
+                  Petition signed! +{goatScore} Glaze Points
                 </p>
               )}
             </form>

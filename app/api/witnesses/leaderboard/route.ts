@@ -9,7 +9,8 @@ export async function GET() {
       const { kv } = await import("@vercel/kv");
       
       // Fetch all leaders from Redis sorted set
-      const leaders = await kv.zrevrange("leaderboard", 0, -1, {
+      const leaders = await kv.zrange("leaderboard", 0, -1, {
+        rev: true,
         withScores: true,
       });
 

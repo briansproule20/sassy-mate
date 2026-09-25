@@ -3,6 +3,10 @@ import { AnimationViewer } from "./animation-viewer";
 
 export const metadata: Metadata = {
   title: "Animation",
+  // null strips the openGraph/twitter tags inherited from the root layout,
+  // so this unlisted route renders no share preview.
+  openGraph: null,
+  twitter: null,
   robots: {
     index: false,
     follow: false,
